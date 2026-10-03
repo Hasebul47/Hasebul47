@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Kazi Hasebul Islam — AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F2027"/>
+      <stop offset="55%" stop-color="#203A43"/>
+      <stop offset="100%" stop-color="#2C5364"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2F81F7"/>
+      <stop offset="100%" stop-color="#3FD0C9"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .name { animation: fade 1.4s ease-out both; }
+    .role { animation: fade 1.4s 0.5s ease-out both; }
+    .bar  { animation: fade 1.4s 0.9s ease-out both; }
+    .dot  { fill: #3FD0C9; opacity: 0.35; }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  </style>
+
+  <!-- animated wave background -->
+  <path fill="url(#bg)" d="M0 0H1200V200C1000 245 800 160 600 200C400 240 200 165 0 200Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0 0H1200V200C1000 245 800 160 600 200C400 240 200 165 0 200Z;
+              M0 0H1200V205C1000 165 800 240 600 205C400 170 200 240 0 205Z;
+              M0 0H1200V200C1000 245 800 160 600 200C400 240 200 165 0 200Z"/>
+  </path>
+
+  <!-- floating particles -->
+  <circle class="dot" cx="140" cy="60" r="3"><animate attributeName="cy" values="60;48;60" dur="5s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="1060" cy="70" r="4"><animate attributeName="cy" values="70;56;70" dur="6s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="980" cy="150" r="2.5"><animate attributeName="cy" values="150;140;150" dur="4.5s" repeatCount="indefinite"/></circle>
+  <circle class="dot" cx="230" cy="140" r="2.5"><animate attributeName="cy" values="140;128;140" dur="5.5s" repeatCount="indefinite"/></circle>
+
+  <text class="name" x="600" y="98" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#FFFFFF" letter-spacing="1">Kazi Hasebul Islam</text>
+  <rect class="bar" x="540" y="116" width="120" height="4" rx="2" fill="url(#accent)"/>
+  <text class="role" x="600" y="152" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="500" fill="#CFE3FF" letter-spacing="2">AI ENGINEER  •  APPLIED AI &amp; INTELLIGENT AUTOMATION</text>
+</svg>
