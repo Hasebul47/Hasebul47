@@ -1,6 +1,6 @@
 <!-- ============================ HEADER ============================ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=210&section=header&text=Kazi%20Hasebul%20Islam&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%E2%80%A2%20Applied%20AI%20%26%20Intelligent%20Automation&descAlignY=57&descSize=17&animation=fadeIn" width="100%" alt="Kazi Hasebul Islam" />
+  <img src="./assets/header.svg" width="100%" alt="Kazi Hasebul Islam — AI Engineer" />
 </p>
 
 <p align="center">
@@ -231,32 +231,6 @@ flowchart LR
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Hasebul47&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hasebul47&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Hasebul47&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Hasebul47&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
-</p>
-
-<!-- Snake animation: generated daily by .github/workflows/snake.yml -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hasebul47/Hasebul47/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hasebul47/Hasebul47/output/github-snake.svg" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Hasebul47/Hasebul47/output/github-snake.svg" />
-  </picture>
-</p>
-
----
-
 ## 🤝 Let's Connect
 
 <p align="center">
@@ -267,5 +241,5 @@ flowchart LR
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" width="100%" alt="footer" />
+  <img src="./assets/footer.svg" width="100%" alt="" />
 </p>
